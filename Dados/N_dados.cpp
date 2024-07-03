@@ -18,7 +18,7 @@ void Ndados(int n, int k) {
     if (k >= n && k <= 6 * n) {
         cout << k << ": " << dp[n][k] << endl;
     } else {
-        cout << "impossível" << endl;
+        cout << "impossivel" << endl;
         return;
     }
 }
