@@ -68,9 +68,3 @@ A complexidade de tempo para calcular todas as possíveis somas é O(n * 6n) = O
 #### Complexidade de Espaço
 
 A complexidade de espaço é O(n * 6n) = O(n²), pois precisamos armazenar todas as possíveis somas para cada dado em uma matriz.
-
----
-
-## Conclusão
-
-O problema dos n dados pode ser resolvido utilizando uma abordagem de programação dinâmica para calcular o número de maneiras de obter uma soma específica k com n dados.
