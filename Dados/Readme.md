@@ -73,4 +73,4 @@ A complexidade de espaço é O(n * 6n) = O(n²), pois precisamos armazenar todas
 
 ## Conclusão
 
-O problema dos n dados pode ser resolvido utilizando uma abordagem de programação dinâmica para calcular o número de maneiras de obter uma soma específica k com n dados. Esta lógica matemática pode ser implementada em qualquer linguagem de programação, bastando seguir os princípios descritos acima.
+O problema dos n dados pode ser resolvido utilizando uma abordagem de programação dinâmica para calcular o número de maneiras de obter uma soma específica k com n dados.
