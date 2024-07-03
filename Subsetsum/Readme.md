@@ -22,7 +22,7 @@ Vamos chamar essa tabela auxiliar de `T`. Se temos um conjunto `S` com `n` eleme
      - Incluir o `i`-ésimo elemento: Neste caso, `T[i][j]` será verdadeiro se `T[i-1][j - S[i-1]]` for verdadeiro e `j >= S[i-1]`.
 
 A fórmula de transição é:
-\[ T[i][j] = T[i-1][j] \text{ ou } (j \geq S[i-1] \text{ e } T[i-1][j - S[i-1]]) \]
+T[i][j] = T[i-1][j] ou (j >= S[i-1] e T[i-1][j - S[i-1]])
 
 ## Algoritmo
 
@@ -37,7 +37,7 @@ A complexidade de tempo do algoritmo é O(n * k), onde:
 - n é o número de elementos no conjunto S.
 - k é o valor alvo.
 
-Isso ocorre porque o algoritmo preenche uma tabela de tamanho (n+1) * (k+1), e cada entrada da tabela leva tempo constante O(1) para ser calculada. Portanto, o tempo total é proporcional ao número de entradas na tabela.
+Isso ocorre porque o algoritmo preenche uma tabela de tamanho (n+1) x (k+1), e cada entrada da tabela leva tempo constante O(1) para ser calculada. Portanto, o tempo total é proporcional ao número de entradas na tabela.
 
 ## Exemplo
 

@@ -69,4 +69,4 @@ A complexidade de espaço é O(n), que é o espaço necessário para armazenar o
 
 ## Conclusão
 
-O problema da geração de permutações pode ser resolvido eficientemente usando uma abordagem recursiva que troca elementos do vetor. A complexidade de tempo é O(n * n!) devido ao número de permutações e ao tempo necessário para imprimir cada permutação. A complexidade de espaço é O(n) devido à profundidade da recursão. Esta abordagem é adequada para vetores de tamanho pequeno a moderado, onde todas as permutações podem ser geradas e processadas em tempo razoável.
+O problema da geração de permutações pode ser resolvido usando uma abordagem recursiva que troca elementos do vetor. A complexidade de tempo é O(n * n!) devido ao número de permutações e ao tempo necessário para imprimir cada permutação. A complexidade de espaço é O(n) devido à profundidade da recursão. Esta abordagem é adequada para vetores de tamanho pequeno , onde todas as permutações podem ser geradas e processadas em tempo razoável.
