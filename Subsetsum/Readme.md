@@ -33,11 +33,11 @@ A fórmula de transição é:
 
 ## Complexidade
 
-A complexidade de tempo do algoritmo é \(O(n \times k)\), onde:
-- \(n\) é o número de elementos no conjunto \(S\).
-- \(k\) é o valor alvo.
+A complexidade de tempo do algoritmo é O(n * k), onde:
+- n é o número de elementos no conjunto S.
+- k é o valor alvo.
 
-Isso ocorre porque o algoritmo preenche uma tabela de tamanho \((n+1) \times (k+1)\), e cada entrada da tabela leva tempo constante \(O(1)\) para ser calculada. Portanto, o tempo total é proporcional ao número de entradas na tabela.
+Isso ocorre porque o algoritmo preenche uma tabela de tamanho (n+1) * (k+1), e cada entrada da tabela leva tempo constante O(1) para ser calculada. Portanto, o tempo total é proporcional ao número de entradas na tabela.
 
 ## Exemplo
 

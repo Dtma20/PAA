@@ -46,7 +46,7 @@ Para um tabuleiro de xadrez de 8x8, começando na posição `(0, 0)`, o algoritm
 
 ### Complexidade de Tempo
 
-A complexidade de tempo no pior caso é muito alta devido à natureza do problema de backtracking. Para um tabuleiro de `n x n`, o cavalo tem até 8 movimentos possíveis em cada posição, levando a uma complexidade de \(O(8^{n^2})\) no pior caso. No entanto, heurísticas como a Regra de Warnsdorff podem ser aplicadas para reduzir significativamente o tempo de execução na prática.
+A complexidade de tempo no pior caso é muito alta devido à natureza do problema de backtracking. Para um tabuleiro de `n * n`, o cavalo tem até 8 movimentos possíveis em cada posição, levando a uma complexidade de O(8^n²) no pior caso. No entanto, heurísticas como a Regra de Warnsdorff podem ser aplicadas para reduzir significativamente o tempo de execução na prática.
 
 ---
 
