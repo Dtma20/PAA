@@ -44,7 +44,3 @@ Isso ocorre porque o algoritmo preenche uma tabela de tamanho (n+1) x (k+1), e c
 Considere o conjunto `S = {3, 34, 4, 12, 5, 2}` e o valor alvo `k = 9`.
 
 A tabela `T` será construída conforme descrito e ao final, `T[6][9]` nos dirá se é possível formar a soma `9` usando os elementos do conjunto `S`.
-
-## Conclusão
-
-O problema do subconjunto de soma pode ser resolvido eficientemente usando programação dinâmica. A tabela auxiliar `T` ajuda a determinar se existe um subconjunto cuja soma é igual ao valor alvo. Se `T[n][k]` for verdadeiro, significa que tal subconjunto existe. Caso contrário, significa que não é possível encontrar um subconjunto com a soma igual ao valor alvo.
